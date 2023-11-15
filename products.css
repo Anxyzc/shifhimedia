@@ -1,0 +1,33 @@
+/* style.css */
+.row-eq-height {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 16px; /* ระยะห่างระหว่างคอลัมน์ */
+}
+
+.col-md-12 {
+    flex: 1; /* ทำให้ทุกคอลัมน์มีขนาดเท่ากัน */
+}
+
+.text-container {
+    padding: 16px; /* ระยะห่างของข้อความ */
+    background-color: #fff; /* สีพื้นหลังข้อความ */
+}
+
+/* style.css */
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ccc;
+    z-index: 1000;
+}
+
+.popup img {
+    max-width: 100%;
+    height: auto;
+}
